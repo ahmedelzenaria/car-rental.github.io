@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Car Rental</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        
+        <header class="head">
+           <nav class="navbar" >
+                <div class="container">
+                    <div class="col-sm-3">
+                    <div class="nav-header">
+                        <div class=" navbar-brand">
+                            <a id="logo" href="index.php"><img src="images/logo.png"><span class="logo"> A . </span><span class="logo1">E</span></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="navbar-links">
+                        <div class="col-sm-6 bottom-right">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="index.php">Home</a></li>
+                                <li><a href="reservation.php">Reservation</a></li>
+                                <li><a href="fleet.php">Fleet</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                                    <ul class="dropdown-menu"  >
+                                        <li><a href="aboutus.php">About Us</a></li>
+                                        <li><a href="services.php">Services</a></li>
+                                        <li><a href="location.php">Locations</a></li>
+                                        <li><a href="faq.php">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.php">Contact</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 navbar-button">
+                        <p style="padding: .5px"></p>
+                        <form class="form-inline">
+                            <button type="submit" class="btn btn-default btn-sm" id="">Register</button>
+                            <button type="submit" class="btn btn-default btn-sm" id="">Login</button>
+                        </form>
+                    </div>
+                
+                </div>
+            </nav>
+           
+            <div class="slideshow">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/1.jpg"  style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/2.jpg" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="images/3.jpg" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/4.jpg" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/5.jpg" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/6.jpg" style="width:100%;">
+                    </div>
+                    <div class="item">
+                        <img src="images/7.jpg" style="width:100%;">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
+          
+            <div class="form container">
+                    <form class="form-sm row">
+                        <h1 class="col-sm-12">Rent a car at law prices</h1>
+                        
+                            <div class="form-group col-sm-6">
+                                <label>Pick-up Date and Time</label>
+                                <input type="text" class="form-control date" placeholder="Date">
+                                <input type="text" class="form-control time" placeholder="Time">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Return Date and Time</label>
+                                <input type="text" class="form-control date" placeholder="Date">
+                                <input type="text" class="form-control time" placeholder="Time">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Pick-up Location</label>
+                                <input type="text" class="form-control" placeholder="Pick-up Location">
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label>Return Location</label>
+                                <input type="text" class="form-control" placeholder="Return Location">
+                            </div>
+                        <div class="form-group col-sm-12">
+                            <button class="btn btn-default btn-block active">Get A Quate Now</button>
+                        </div>
+                    </form>
+            </div>
+            <div style="clear: both;"></div>
+        </header>
+        
+        <main>
+            <div class="container">
+                <div class="row">
+                    <p class="sildeshowheader">vehicles</p>
+                    <div class="col-sm-3 box ">
+                        <div class="overlay">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <button class="btn btn-info btn-lg">Book Now</button>
+                        </div>
+                        <div class="types">
+                            <div class="panel-heading">
+                               <img class="panel-title" src="images/mini.png"> 
+                            </div>
+                            <div class="panel-body form-inline model">
+                                <p class="producttype">SMALL:MINI</p> 
+                                <p class="examples">Example of this range: Ford</p>
+                                <div class="review">
+                                    <span class="fa fa-user" aria-hidden="true"></span>4
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-briefcase" aria-hidden="true"></span>3
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-car" aria-hidden="true"></span>2
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-cog" aria-hidden="true"></span>3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 box ">
+                        <div class="overlay">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                             <button class="btn btn-info btn-lg">Book Now</button>
+                        </div>
+                        <div class="types">
+                            <div class="panel-heading">
+                                <img class="panel-title" src="images/economy.png"> 
+                            </div>
+                            <div class="panel-body form-inline model">
+                                <p class="producttype">SMALL:ECONOMY</p> 
+                                <p class="examples">Example of this range: Opel Astra</p>
+                                <div class="review">
+                                    <span class="fa fa-user" aria-hidden="true"></span>4
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-briefcase" aria-hidden="true"></span>3
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-car" aria-hidden="true"></span>2
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-cog" aria-hidden="true"></span>3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 box ">
+                        <div class="overlay">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                             <button class="btn btn-info btn-lg">Book Now</button>
+                        </div>
+                        <div class="types">
+                            <div class="panel-heading">
+                                <img class="panel-title" src="images/lowemission.png"> 
+                            </div>
+                            <div class="panel-body form-inline model">
+                                <p class="producttype">MEDUIM:LOW EMISSON</p> 
+                                <p class="examples">Example of this range: Tesla</p>
+                                <div class="review">
+                                    <span class="fa fa-user" aria-hidden="true"></span>4
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-briefcase" aria-hidden="true"></span>3
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-car" aria-hidden="true"></span>2
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-cog" aria-hidden="true"></span>3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 box ">
+                        <div class="overlay">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                             <button class="btn btn-info btn-lg">Book Now</button>
+                        </div>
+                        <div class="types">
+                            <div class="panel-heading">
+                                <img class="panel-title" src="images/stationwagon.png"> 
+                            </div>
+                            <div class="panel-body form-inline model">
+                                <p class="producttype">LARGE:STATION WAGON</p> 
+                                <p class="examples">Example of this range:vw Passat</p>
+                                <div class="review">
+                                    <span class="fa fa-user" aria-hidden="true"></span>4
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-briefcase" aria-hidden="true"></span>3
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-car" aria-hidden="true"></span>2
+                                </div>
+                                <div class="review">
+                                    <span class="fa fa-cog" aria-hidden="true"></span>3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="info">
+                <ul class="list-inline services">
+                    <li class="services-content">
+                        <div class="services-head">
+                            <div class="services-logo">
+                                <span class="fa fa-car fa-2x"></span>
+                            </div>
+                            <div class="services-title">
+                                <span class="title">Vehicles to meet demands</span>
+                            </div>
+                        </div>
+                        <div class="services-body">
+                            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </li>
+                    <li class="services-content">
+                        <div class="services-head">
+                            <div class="services-logo">
+                                <span class="fa fa-shopping-bag fa-2x"></span>
+                            </div>
+                            <div class="services-title">
+                                <span class="title">Great Daily and Hourly Rates</span>
+                            </div>
+                        </div>
+                        <div class="services-body">
+                            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </li>
+                    <li class="services-content">
+                        <div class="services-head">
+                            <div class="services-logo">
+                                <span class="fa fa-calendar-check-o fa-2x"></span>
+                            </div>
+                            <div class="services-title">
+                                <span class="title">No hidden charges</span>
+                            </div>
+                        </div>
+                        <div class="services-body">
+                            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </li>
+                    <li class="services-content">
+                        <div class="services-head">
+                            <div class="services-logo">
+                                <span class="fa fa-laptop fa-2x"></span>
+                            </div>
+                            <div class="services-title">
+                                <span class="title">Real time online booking</span>
+                            </div>
+                        </div>
+                        <div class="services-body">
+                            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </li>
+                    <li class="services-content">
+                        <div class="services-head">
+                            <div class="services-logo">
+                                <span class="fa fa-lock fa-2x"></span>
+                            </div>
+                            <div class="services-title">
+                                <span class="title">Clean vehicles & many extras</span>
+                            </div>
+                        </div>
+                        <div class="services-body">
+                            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="special-offer">
+                <div class="special-offer-head">
+                    <p>Special Offer</p>
+                </div>
+                <div class="special-offer-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="offer-content">
+                                    <div class="offer-image">
+                                        <img src="images/offer-image-1.jpg">
+                                    </div>
+                                    <div class="offer-title">
+                                        <span>Top Sellers</span>
+                                    </div>
+                                    <div class="offer-overlay">
+                                        <div class="offer-price">
+                                            <span>from</span>
+                                            <strong>£40.00</strong>
+                                            <span>per day</span>
+                                        </div>
+                                    </div>
+                                    <div class="offer-explanation">
+                                        <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <button class="btn btn-info btn-lg">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="offer-content">
+                                    <div class="offer-image">
+                                        <img src="images/offer-image-2.jpg">
+                                    </div>
+                                    <div class="offer-title">
+                                        <span>small & medium cars</span>
+                                    </div>
+                                    <div class="offer-overlay">
+                                        <div class="offer-price">
+                                            <span>from</span>
+                                            <strong>£40.00</strong>
+                                            <span>per day</span>
+                                        </div>
+                                    </div>
+                                    <div class="offer-explanation">
+                                        <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <button class="btn btn-info btn-lg">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="offer-content">
+                                    <div class="offer-image">
+                                        <img src="images/offer-image-3.jpg">
+                                    </div>
+                                    <div class="offer-title">
+                                        <span>family cars</span>
+                                    </div>
+                                    <div class="offer-overlay">
+                                        <div class="offer-price">
+                                            <span>from</span>
+                                            <strong>£40.00</strong>
+                                            <span>per day</span>
+                                        </div>
+                                    </div>
+                                    <div class="offer-explanation">
+                                        <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <button class="btn btn-info btn-lg">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="offer-content">
+                                    <div class="offer-image">
+                                        <img src="images/offer-image-4.jpg">
+                                    </div>
+                                    <div class="offer-title">
+                                        <span>luxury & prestige cars</span>
+                                    </div>
+                                    <div class="offer-overlay">
+                                        <div class="offer-price">
+                                            <span>from</span>
+                                            <strong>£40.00</strong>
+                                            <span>per day</span>
+                                        </div>
+                                    </div>
+                                    <div class="offer-explanation">
+                                        <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                        </p>
+                                        <button class="btn btn-info btn-lg">Book Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="aboutus">
+                <div class="aboutus-info">
+                    <div class="aboutus-info-info">
+                        <div class="aboutus-content">
+                            <div class="aboutus-head">
+                                <div class="aboutus-logo">
+                                    <span class="glyphicon glyphicon-qrcode glyphicon-lg"></span>
+                                </div>
+                                <div class="aboutus-title">
+                                    <p>about us</p>
+                                </div>
+                            </div>
+                            <div class="aboutus-explanation">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic typesetting.
+                                     but also the leap into electronic typesetting.
+                                </p>
+                            </div>
+                            <div class="aboutus-readmore">
+                                <a class="btn btn-link" href="#"><span>Read more</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aboutus-info-location">
+                        <div class="aboutus-head">
+                                <div class="aboutus-logo">
+                                    <span class="glyphicon glyphicon-globe glyphicon-lg"></span>
+                                </div>
+                                <div class="aboutus-title">
+                                    <p>location</p>
+                                </div>
+                        </div>
+                        <div class="location-body">
+                            <div class="location-button">
+                                <a class="btn btn-default">
+                                    <span>Find Location</span>
+                                </a>
+                            </div>
+                            <div class="location-text">
+                                <p>
+                                    We serve multiple locations. Find out our offices, along with our pickup and return pointsman
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="aboutus-image">
+                    <img src="images/aboutusimage.jpg">
+                </div>
+            </div>
+        </main>
+        <hr>
+        <footer class="footer">
+            
+            <section class="footer-links container">
+                <div class="links">
+                    <div class="links-left pull-left">
+                        <ul class="list-inline">
+                            <li>
+                                <div>
+                                    <small>
+                                        <span>Call us Now:</span>
+                                    </small>
+                                </div>
+                                <div>
+                                    <span class="glyphicon glyphicon-earphone"></span>
+                                    <strong>
+                                        <span>0777 2837 321</span>
+                                    </strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <small>
+                                        <span>Or send us a message:</span>
+                                    </small>
+                                </div>
+                                <div>
+                                    <span class="glyphicon glyphicon-envelope"></span>
+                                    <strong>
+                                        <span>Info@AhmedElzenaria.com</span>
+                                    </strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="links-right pull-right">
+                        <div class="links-text">
+                            <span>We are social: </span>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a class="fa fa-facebook fa-2x" href="#"></a></li>
+                            <li><a class="fa fa-google-plus fa-2x" href="#"></a></li>
+                            <li><a class="fa fa-instagram fa-2x" href="#"></a></li>
+                            <li><a class="fa fa-linkedin fa-2x" href="#"></a></li>
+                            <li><a class="fa fa-twitter fa-2x" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="footer-copyrights">
+                <div class="shell clearfix">
+                    <nav class="pull-right navbar-links">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.php">Home</a></li>
+                            <li><a href="#">Reservation</a></li>
+                            <li><a href="#">Fleet</a></li>
+                            <li><a href="#">Locations</a></li>
+                            <li ><a href="#">About Us</a></li>
+                            <li ><a href="#">Services</a></li>
+                            <li ><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact</a></li></ul>
+                    </nav>
+                    <div class="pull-left">
+                        © 2017
+                        <span>Rent a Car Company All rights reserved.</span>
+                        <a href="#">Rental Terms</a>
+                    </div>
+                    <div class="copyrights">  
+                        <span>Car Rental Website Builder by Ahmed Elzenaria</span>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.dropdown-toggle').dropdown();
+            });
+        </script>
+    </body>
+</html>
+
+

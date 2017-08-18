@@ -1,0 +1,520 @@
+body{
+    background: #F8F8FC;
+        
+}
+/*start header*/
+header{
+    width: 100%;
+    height: 650px;
+    
+
+}
+/*start navbar*/
+header .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    z-index: 1000;
+}
+#logo{
+    text-decoration: none;
+}
+.logo{
+    color: #333;
+    font-family: Humanistic-Sans-Serif
+}
+.logo1{
+    color: #333;
+     font-family: Humanistic-Sans-Serif
+}
+img{
+    height: 30px;
+    width: 70px;
+}
+.navbar .container .navbar-links .nav li a{
+    color: #333;
+}
+.navbar .container .navbar-links .nav li a:hover{
+    background: #333;
+    color: #fff;
+}
+.navbar .container .navbar-button button{
+    width: 100px;
+    height: 30px;
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+.navbar .container .navbar-button button:hover{
+    background: #fccf1d;
+    color: #333
+}
+.navbar{
+    margin-bottom: 0;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    background: rgba(234,235,234,0.6);
+    border-radius: 0;   
+}
+.navbar .container{
+    height: 0;
+}
+
+/* end navbar */
+/*start slideshow and form*/
+.slideshow{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.form{
+    position: absolute;
+    top:150px;
+    left:800px;
+    width:450px;
+    height: 250px ;
+}
+.form h1{
+    color:white;
+    line-height: 1.1;
+    font-weight: 700;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .9);
+}
+.form .form-group label{
+    font-size: 15px;
+    float: left;
+    color:white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .9);
+    
+}
+.form .form-group .date{
+    width:90px;
+    float: left;
+    margin-right: 10px
+}
+.form .form-group .time{
+    width:90px;
+    float: left;
+}
+.form .form-group .btn{
+    background: #fccf1d;
+    height: 40px
+}
+.form .form-group .btn:hover{
+    background: #333;
+    color: #fff;
+}
+/*slideshow and form*/
+/* end header */
+
+/* start main */
+main{
+    margin-top: 80px;
+    position: relative;
+}
+/* start main slideshow*/
+main .container .row .sildeshowheader{
+    font-family: tahoma;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center
+}
+
+
+main .container .box{
+    height: auto;
+}
+main .container .box .overlay{
+    position: absolute ;
+    border:1px solid #fccf1d;
+    background: rgba(255,255,255,0.9);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: none;
+    
+}
+main .container .box .overlay p{
+    color: #333232;
+    margin-top: 30px;
+}
+main .container .box:hover .overlay{
+    display: block;
+  
+    
+}
+main .container .box .overlay .btn{
+    background: #333232;
+    color: white;
+    border: 1px solid;
+    margin-top: 20px;
+}
+main .container .box .overlay .btn:hover{
+    background: #fccf1d;
+    color: #333232;
+}
+main .container .box .types img{
+    width: 100%;
+    height: 130px;
+}
+main .container .box .types .examples{
+    background: #fccf1d;
+    width: 100%;
+    padding-left: 15px;
+}
+main .container .box .types .producttype{
+    font-family: tahoma;
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+main .container .box .types .review{
+    height: 40px;
+    width: 56px;
+    border: 1px solid #ccc;
+     border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    margin-left: 1px
+}
+main .container .box .types .review span{
+    margin-right: 4px
+}
+/*end main slideshow*/
+
+/*start main info*/
+main .info{
+    height: 300px;
+    width: 99%;
+    margin-top: 70px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 20px #ccc;
+    padding: 30px;
+        
+}
+
+main .info .services-content{
+    width: 250px;
+    height: 100%
+}
+main .info .services-content .services-head{
+    width: 100%;
+    height: 80px;
+}
+main .info .services-content .services-head .services-logo{
+    height: 60px;
+    width: 60px;
+    background: #fccf1d;
+    border-radius: 8px; 
+    text-align: center;
+    float: left;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+main .info .services-content .services-head .services-title{
+    font-family: tahoma;
+    font-size: 18px;
+    line-height: 1.73;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+        
+}
+main .info .services-content .services-body{
+  
+    color: #8b8484;
+    line-height: 1.65;
+    font-family: tahoma;
+    font-size: 15px;
+}
+/*end main info*/
+
+/*start of special offer */
+main .special-offer{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+main .special-offer .special-offer-head{
+    font-family: tahoma;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center
+}
+main .special-offer .special-offer-body{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+}
+main .special-offer .special-offer-body .offer-content{
+    background: #fff;
+    padding: 3px;
+}
+main .special-offer .special-offer-body .offer-content:hover{
+    border: 1px solid #fccf1d;
+}
+main .special-offer .special-offer-body .offer-image img{
+    width: 100%;
+    height: 131px;
+    position: relative;
+}
+main .special-offer .special-offer-body .offer-title{
+    background: #fccf1d;
+    color: #2f2e2e; 
+}
+main .special-offer .special-offer-body .offer-title{
+    overflow: hidden;
+    height: 36px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 17px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    
+}
+main .special-offer .special-offer-body .offer-overlay{
+    position: absolute;
+    top: 3px;
+    left: 18px;
+    bottom: 0;
+    right: 0;
+    padding: 20px 10px;
+    width: 90px;
+    height: 131px;
+    background: rgba(2,1,1,0.7);
+}
+main .special-offer .special-offer-body .offer-overlay .offer-price {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+main .special-offer .special-offer-body .offer-overlay .offer-price strong{
+   font-size: 24px;
+   font-weight: 700;
+}
+main .special-offer .special-offer-body .offer-explanation{
+    color: #8b8484;
+    line-height: 1.65;
+    font-family: tahoma;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+main .special-offer .special-offer-body .offer-explanation button{
+     background: #333232;
+    color: white;
+    border: 1px solid;
+    width: 180px;
+}
+main .special-offer .special-offer-body .offer-explanation button:hover{
+    background: #fccf1d;
+    color: #333232;
+}
+
+/* end of special offer*/
+
+/*start about us*/
+
+main .aboutus{
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    padding-left: 50px;
+
+}
+main .aboutus .aboutus-info{
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-right: 50px
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-head{
+    width: 100%;
+    height: 60px
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-head .aboutus-logo{
+    float: left;
+    margin-right: 10px;
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-head .aboutus-logo .glyphicon{
+    font-size: 40px;
+    color: #fccf1d;
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-title{
+    font-family: tahoma;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-explanation{
+    font-family: tahoma;
+    font-size: 15px;
+    line-height: 1.73;
+    color: #8b8484;
+}
+
+main .aboutus .aboutus-info .aboutus-content .aboutus-readmore a span{
+    
+    font-family: tahoma;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #fccf1d;
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-readmore .btn{
+    padding: 0;
+    margin: 0;
+}
+main .aboutus .aboutus-info .aboutus-content .aboutus-readmore .btn:hover{
+    color: #fccf1d;
+}
+
+main .aboutus .aboutus-info-location{
+    margin-top: 20px
+}
+main .aboutus .aboutus-info-location .aboutus-head .aboutus-logo{
+    float: left;
+    margin-right: 10px;
+}
+main .aboutus .aboutus-info-location .aboutus-head .aboutus-logo .glyphicon{
+    font-size: 40px;
+    color: #fccf1d;
+}
+main .aboutus .aboutus-info-location .aboutus-title{
+    font-family: tahoma;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+main .aboutus .aboutus-info-location .location-body{
+    margin-top: 25px;
+}
+main .aboutus .aboutus-info-location .location-body .location-button .btn{
+    float: left;
+    width: 222px;
+    height: 44px;
+    color: #8b8484;
+    border: 1px solid #8b8484;
+    background: #e6e6e6;
+    padding-top: 10px;
+    margin-right: 20px
+}
+main .aboutus .aboutus-info-location .location-body .location-button .btn:hover{
+    background: #8b8484;
+    color: #fff;
+}
+main .aboutus .aboutus-info-location .location-body .location-text{
+    font-family: tahoma;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #8b8484;
+}
+main .aboutus .aboutus-image{
+    
+    height: 100%;
+    float: left;
+}
+main .aboutus .aboutus-image img{
+    width: 600px;
+    height: 351px;
+}
+/*end about us */
+/*start reservatin*/
+.reservation{
+    height: 300px;
+    width: 100%;
+    background: green;
+}
+.reservation .reservation-head p{
+   font-size: 50px;
+}
+
+/*end reservatin*/
+/* start footer*/
+
+.footer{
+    width: 100%;
+    height: auto;
+}
+.footer .links{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.footer .footer-links{
+    padding: 20px;  
+    line-height: 1.8;
+    font-size: 16px;
+}
+.footer .footer-links .links-left{
+    float: left;
+}
+.footer .footer-links .list-inline small{
+    margin-right: 50px;
+    color: #8f8c8c;
+}
+.footer .footer-links .list-inline strong{
+    margin-right: 50px;
+}
+.footer .footer-links .list-inline .glyphicon{
+    color: #fccf1d;
+}
+.footer .footer-links .links-right{
+    float: right;
+    width: 450px;
+}
+.footer .footer-links .links-right .links-text{
+    color: #8f8c8c;
+    float: left;
+    margin-top: 20px;
+}
+.footer .footer-links .links-right ul li .fa{
+    background: rgba(86,86,86,.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px
+}
+.footer .footer-copyrights .shell{
+    width: 1230px;
+    margin: 0 auto;
+}
+.footer .footer-copyrights .navbar-links{
+    float: right;
+}
+.footer .footer-copyrights .copyrights{
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+.footer .footer-copyrights .shell .pull-right .nav li a{
+    color: #8f8c8c;
+}
+/*end footer*/
