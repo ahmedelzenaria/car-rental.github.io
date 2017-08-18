@@ -197,7 +197,7 @@ main .container .box .types .review span{
 
 /*start main info*/
 main .info{
-    height: 300px;
+    height: auto;
     width: 99%;
     margin-top: 70px;
     margin-left: 5px;
@@ -208,7 +208,7 @@ main .info{
 }
 
 main .info .services-content{
-    width: 250px;
+    width: 19%;
     height: 100%
 }
 main .info .services-content .services-head{
